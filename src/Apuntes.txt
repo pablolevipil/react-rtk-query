@@ -1,0 +1,25 @@
+Redux Toolkit: 
+.- nos permite tener una biblioteca para solicitar datos desde el servidor, es una alternativa directa de react-query. 
+
+npm run back: 
+.- Se crea en el archivo de package.json con el comando 
+ej: "json-server --watch db/tasks.json --port 3000". 
+Sirve para ejecutar un backend y va leer el archivo para simular una bd real. (API)
+
+Las querys serian las peticiones GET. 
+Las mutaciones serian las peticiones PUT, DELETE, POST. 
+
+Error Key={} de ReactJS: 
+Se quita recorriendo el arreglo y agregando un ID. 
+
+-- Mutaciones -- 
+
+.- transformResponse = sirve para poder listar los datos dependiendo del Id y restando. 
+
+.-providesTags = sirve para volver a cargar la pagina cuando se hace un POST, DELETE, ETC....
+
+
+
+
+
+
